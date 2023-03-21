@@ -1,0 +1,471 @@
+.mainCarts {
+  display: flex;
+  padding: 20px 0;
+  /* width: 100%; */
+}
+
+.mainCartLeft {
+  width: 28%;
+  padding: 0;
+  background-color: white;
+}
+
+.mainCartRight {
+  width: 72%;
+  padding: 0 0 0 15px;
+  /* background-color: blue; */
+}
+
+.topDiv {
+  background-color: #d4dbf9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.topDiv span {
+  width: 100px;
+  padding-bottom: 5px;
+}
+
+.topDiv span img {
+  height: 80px;
+  width: 125px;
+  object-fit: fill;
+}
+
+.topDiv .topDivContent h4,
+.topDiv .topDivContent p {
+  white-space: nowrap;
+  color: #556ee6;
+}
+
+.topDiv .topDivContent p,
+.middleDiv1 p {
+  font-size: 13px;
+}
+
+.middleDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 17px;
+  background-color: white;
+}
+
+.middleDiv1 img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 5px solid #f6f6f6;
+  border-radius: 50%;
+  margin-top: -41px;
+}
+
+.middleDiv1 h4,
+.middleDiv1 p {
+  padding-top: 5px;
+}
+
+.middleDiv1 h4,
+.bottomDiv1 h4 {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.middleDiv1 p {
+  color: #74788d;
+}
+
+.middleDiv2 h4,
+.middleDiv3 h4 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.middleDiv2 .project,
+.middleDiv3 .project {
+  padding-bottom: 20px;
+  color: #74788d;
+  font-weight: 600;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  background-color: #556ee6;
+  color: white;
+  font-size: 11px;
+  border-radius: 3px;
+  width: 94px;
+}
+
+.button p {
+  margin-right: 4px;
+}
+
+.bottomDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 15px 0;
+  background-color: white;
+}
+
+.bottomDiv .bottomDiv1 p,
+.lastCaption {
+  color: #9f9f9f;
+  font-size: 13px;
+  margin-bottom: 17px;
+}
+
+.bottomDiv .bottomDiv1 h2 {
+  color: #495057;
+  font-size: 22px;
+  padding-bottom: 7px;
+}
+
+.bottomDiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.bottomDiv2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.noDiv,
+.lastCaption {
+  margin-left: 15px;
+}
+
+.noDiv {
+  margin-bottom: 5px;
+}
+
+.topCards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.sameprops {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.sameprops img {
+  width: 50px;
+  height: 50px;
+}
+
+.cardInfoP {
+  font-size: 13px;
+  margin-bottom: 16px;
+  color: #9f9f9f;
+}
+
+.cardInfoH3 {
+  font-size: 20px;
+  color: #495057;
+}
+
+.mainTable {
+  /* width: 1100px;
+  height: 400px; */
+  padding: 0 0 30px 0;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.tableHeading {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.tableHeading,
+.tableHeadingRight {
+  display: flex;
+}
+
+.tableHeading h4 {
+  font-size: 15px;
+}
+
+.tableHeading .tableHeadingRight p {
+  color: #495057;
+  font-size: 13px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.year {
+  color: white !important;
+  background-color: #556ee6;
+  border-radius: 3px;
+}
+
+.diagram {
+  padding: 10px 20px;
+  position: relative;
+}
+
+.diagram .diagramUl {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 40px 0 40px;
+}
+
+.diagram ul li {
+  height: 45px;
+  border-bottom: 1px solid #9f9f9f;
+  /* width: 100%; */
+  opacity: 0.1;
+}
+
+.chart {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+}
+
+.numbers {
+  color: #adb5bd;
+  font-size: 10px;
+  height: 100%;
+}
+
+.numbers p {
+  padding: 28px 0 0 20px;
+}
+
+.chartStats {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-auto-flow: column;
+  gap: 0.6rem;
+  padding: 0 10px;
+  width: 90%;
+  /* height: 200px; */
+  left: 45px;
+  align-items: flex-end;
+  bottom: -22px;
+}
+
+.chartStats .result {
+  padding: 0 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commonProps {
+  width: 7px;
+  border-radius: 3px;
+}
+
+.commonProps:hover {
+  opacity: 0.6;
+}
+
+.chartStats .result .green {
+  height: 50px;
+  background-color: rgb(52, 195, 143);
+}
+
+.chartStats .result .yellow {
+  height: 30px;
+  background-color: rgb(241, 180, 76);
+}
+
+.chartStats .result .blue {
+  background-color: rgb(85, 110, 230);
+}
+
+.chartStats .result .blue1 {
+  height: 110px;
+}
+
+.chartStats .result .blue2 {
+  height: 130px;
+}
+
+.chartStats .result .blue3 {
+  height: 100px;
+}
+
+.chartStats .result .blue4 {
+  height: 160px;
+}
+
+.chartStats .result .blue5 {
+  height: 55px;
+}
+
+.chartStats .result .blue6 {
+  height: 110px;
+}
+
+.chartStats .result .blue7 {
+  height: 90px;
+}
+
+.chartStats .result .blue8 {
+  height: 115px;
+}
+
+.chartStats .result .blue9 {
+  height: 55px;
+}
+
+.chartStats .result .blue10 {
+  height: 40px;
+}
+
+.chartStats .result .blue11 {
+  height: 90px;
+}
+
+.chartStats .result .blue12 {
+  height: 105px;
+}
+
+.chartStats .result .month {
+  /* width: 50px;
+  height: 100px; */
+  color: #adb5bd;
+  font-size: 10px;
+  padding-top: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.series {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.series1,
+.series2,
+.series3 {
+  display: flex;
+  align-items: center;
+  padding: 0 11px;
+}
+
+.seriesp {
+  font-size: 13px;
+  color: #74788d;
+  font-weight: 400;
+}
+
+.cube {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.cube1 {
+  background-color: rgb(85, 110, 230);
+}
+
+.cube2 {
+  background-color: rgb(241, 180, 76);
+}
+
+.cube3 {
+  background-color: rgb(52, 195, 143);
+}
+
+@media screen and (max-width: 1230px) {
+  .mainCarts {
+    display: block;
+  }
+
+  .mainCartLeft {
+    width: 100%;
+  }
+
+  .mainCartRight {
+    width: 100%;
+  }
+
+  .topDiv span {
+    width: 300px;
+    padding-bottom: 5px;
+  }
+
+  .topDiv span img {
+    height: 200px;
+    width: 300px;
+    object-fit: fill;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mainCartRight {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topDiv span {
+    width: 200px;
+    padding-bottom: 5px;
+  }
+
+  .topDiv span img {
+    height: 100px;
+    width: 200px;
+    object-fit: fill;
+  }
+
+  .sameprops img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cardInfoH3 {
+    font-size: 15px;
+    color: #495057;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topDiv span {
+    width: 100px;
+    padding-bottom: 5px;
+  }
+
+  .topDiv span img {
+    height: 50px;
+    width: 100px;
+    object-fit: fill;
+  }
+
+  .sameprops img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cardInfoH3 {
+    font-size: 15px;
+    color: #495057;
+  }
+}

@@ -1,0 +1,112 @@
+.bottomTable {
+  padding: 20px;
+  background-color: white;
+  overflow-x: scroll;
+}
+
+.bottomTable h4 {
+  color: #495057;
+  font-size: 15px;
+  padding: 0 0 20px 0;
+}
+
+.bottomTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  border-top: 1px solid #f2f2f5;
+  border-bottom: 1px solid #f2f2f5;
+}
+
+.headInfos {
+  background-color: #f8f8fb;
+}
+table tbody tr {
+  border-bottom: 1px solid #f2f2f5;
+}
+
+.headInfos th,
+tbody tr th {
+  padding: 15px 20px;
+  font-size: 13px;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.headInfos th {
+  padding: 10px 20px;
+}
+table tr td {
+  font-size: 13px;
+  color: #495057;
+  text-align: center;
+  padding: 16px 20px;
+  white-space: nowrap;
+}
+
+#paid,
+#chargeback,
+#refund {
+  border-radius: 10rem;
+  padding: 2px 8px;
+}
+
+#paid {
+  color: #34c38f;
+  background-color: rgba(52, 195, 143, 0.18);
+}
+
+#chargeback {
+  color: #f46a6a;
+  background-color: rgba(244, 106, 106, 0.18);
+}
+
+#refund {
+  color: #f1b44c;
+  background-color: rgba(241, 180, 76, 0.18);
+}
+
+tbody tr td .viewDetails {
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #556ee6;
+  cursor: pointer;
+}
+
+.footer {
+  margin: 15px 0 0 250px;
+  padding: 20px 15px;
+  background-color: #f2f2f5;
+  justify-content: space-between;
+}
+.footer,
+.copyright {
+  display: flex;
+  font-size: 12px;
+  color: #74788d;
+  white-space: nowrap;
+}
+
+.copyright {
+  align-items: baseline;
+}
+
+@media screen and (max-width: 1230px) {
+  .footer {
+    margin-left: 245px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 525px) {
+}

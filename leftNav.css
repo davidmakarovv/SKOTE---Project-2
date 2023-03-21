@@ -1,0 +1,141 @@
+.leftNav {
+  background-color: #293041;
+  max-height: 95%;
+  width: 250px;
+  position: fixed;
+  top: 70px;
+  overflow: scroll;
+}
+
+.leftNav::-webkit-scrollbar {
+  width: 2px;
+}
+
+.leftNavUl {
+  display: block;
+  padding: 0;
+}
+
+.title {
+  padding: 12px 20px;
+  pointer-events: none;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #6a7187;
+}
+
+.content {
+  width: 100%;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  /* justify-content: space-between; */
+  padding: 17px 15px;
+  cursor: pointer;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px 0 15px;
+}
+
+.dropDown i {
+  color: #a6b0cf;
+  padding-top: 3px;
+  padding-right: 7px;
+}
+
+.dropDown .insideDropDown i {
+  font-size: 1rem;
+  /* margin-right: 5px; */
+  color: #a6b0cf;
+  /* margin-right: 15px; */
+  padding-right: 15px;
+}
+
+.content .dropDown .insideDropDown p {
+  font-size: 12px;
+  padding-top: 3px;
+  padding-right: 40px;
+  color: #a6b0cf;
+}
+
+.dropDown span {
+  background-color: #50a5f1;
+  color: white;
+  border-radius: 10rem;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  /* padding-top: 3px;  */
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.dropDown .new {
+  background-color: #34c38f;
+}
+
+.insideDropDown {
+  display: flex;
+  align-items: baseline;
+}
+
+.subMenu {
+  padding-left: 40px;
+  display: none;
+}
+
+.content .subMenu li {
+  color: #79829c;
+}
+
+.content .subMenu li:hover {
+  color: white;
+  transition: 1s;
+}
+
+/* .content:hover {
+  padding-bottom: 0;
+} */
+
+.content:hover .dropDown i {
+  color: white;
+  transition: 1s;
+}
+
+.content:hover .dropDown p {
+  color: white;
+  transition: 1s;
+}
+
+.content:hover .subMenu {
+  display: block;
+}
+
+.subMenu li {
+  color: white;
+  font-size: 12px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 1230px) {
+  .leftNav {
+    width: 245px;
+  }
+
+  .mainLeftNav {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .leftNav {
+    display: none;
+  }
+
+  .mainLeftNav {
+    display: none;
+  }
+}

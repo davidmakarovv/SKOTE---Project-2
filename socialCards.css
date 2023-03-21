@@ -1,0 +1,244 @@
+.socialCards {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialCard1,
+.socialCard2,
+.socialCard3 {
+  padding: 20px 15px 15px;
+  width: 32%;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.socialCard1 h4,
+.socialCard2 h4,
+.socialCard3 h4 {
+  color: #495057;
+  font-size: 15px;
+}
+
+.socialCard1 .fbBox {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(85, 110, 230, 0.25) !important;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-facebook {
+  font-size: 24px;
+  color: #556ee6;
+}
+
+.socialCard1 .fbSales {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.socialCard1 p {
+  color: #9f9f9f;
+  font-size: 13px;
+  text-align: center;
+}
+
+.socialCard1 a p {
+  color: #556ee6;
+  font-size: 13px;
+  /* text-align: center; */
+  margin: 7px auto;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.fb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fb i {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #556ee6;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.fb h4 {
+  margin-bottom: 10px;
+}
+
+.fb .fa-twitter {
+  background-color: #50a5f1;
+}
+
+.fb .fa-instagram {
+  background-color: #e83e8c;
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.notes .fa-circle-right {
+  font-size: 15px;
+  color: #495057;
+  margin: 0 20px 0 0;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  /* border-radius: 50%; */
+}
+
+.notes .moving {
+  color: #556ee6;
+  background-color: white;
+}
+
+.notes h5 {
+  white-space: nowrap;
+  color: #495057;
+}
+
+.notes .fa-right-long {
+  color: #556ee6;
+  font-size: 10px;
+  margin: 0 20px;
+}
+
+.notes p {
+  color: #495057;
+  font-size: 12px;
+}
+
+.socialCard2 .button {
+  color: white;
+  background-color: #556ee6;
+  padding: 5px 7px;
+  cursor: pointer;
+  display: flex;
+  margin: 30px auto 0;
+}
+
+.socialCard2 .button .fa-right-long {
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.line {
+  width: 30px;
+  height: 65%;
+  border-left: 3px dashed #9f9f9f;
+  opacity: 0.3;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+.socialCard2 {
+  position: relative;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-location-dot {
+  font-size: 50px;
+  color: #556ee6;
+  margin: 20px 0 10px 0;
+}
+
+.location h2 {
+  color: #495057;
+  font-size: 23px;
+}
+
+.location p,
+.city p {
+  color: #495057;
+  font-size: 13px;
+}
+
+.location p {
+  margin-bottom: 20px;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 20px;
+  border-top: 1px solid #f2f2f5;
+}
+
+.city p {
+  width: 100px;
+}
+
+.city h4 {
+  color: #495057;
+  font-size: 16px;
+  margin: 0 20px;
+  width: 40px;
+}
+
+.size {
+  width: 90px;
+  height: 4px;
+  background-color: #556ee6;
+  border-radius: 8px;
+}
+
+.size2 {
+  width: 70px;
+  height: 4px;
+  background-color: rgb(52, 195, 143);
+  border-radius: 8px;
+}
+
+.size3 {
+  width: 40px;
+  height: 4px;
+  background-color: rgb(241, 180, 76);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1230px) {
+  .socialCards {
+    display: block;
+  }
+
+  .socialCard1,
+  .socialCard2,
+  .socialCard3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .size {
+    width: 180px;
+  }
+
+  .size2 {
+    width: 130px;
+  }
+
+  .size3 {
+    width: 80px;
+  }
+}

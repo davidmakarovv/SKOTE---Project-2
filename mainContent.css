@@ -1,0 +1,27 @@
+.mainContent {
+  background-color: #f8f8fb;
+  padding: 30px 20px 10px;
+  margin-left: 250px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading h4,
+.heading p,
+.middleDiv1 h4,
+.bottomDiv1 h4 {
+  color: #495057;
+}
+
+.heading p {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainContent {
+    margin-left: 0;
+  }
+}

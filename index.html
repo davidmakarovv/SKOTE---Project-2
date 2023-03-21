@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="mainTopNav">
+      <nav class="topNav">
+        
+        <ul class="topNavUl">
+            <div class="logo">
+                <img src="./img/logo-light.png" alt="logo" class="logoPhoto" />
+                </div>
+          <li>
+            <i class="fa-solid fa-bars"></i>
+          </li>
+          <li class="firstForm">
+            <form action="" class="searchBox">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" placeholder="Search..." class="search" />
+            </form>
+          </li>
+          <li class="megaMenu">
+            <p>Mega Menu</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+        </ul>
+        <ul class="topNavUl2">
+          <li class="flag">
+            <img src="./img/us.jpg" alt="us, flag" class="usFlag" />
+          </li>
+          <li class="calendar">
+            <i class="fa-solid fa-calendar-days icons"></i>
+          </li>
+          <li class="expand">
+            <i class="fa-solid fa-expand icons"></i>
+          </li>
+          <li class="notification">
+            <i class="fa-regular fa-bell icons"></i>
+            <p>3</p>
+          </li>
+          <li class="henryMenu">
+            <p class="henry">Henry</p>
+            <i class="fa-solid fa-chevron-down henry"></i>
+          </li>
+          <li class="settings">
+            <i class="fa-solid fa-gear icons"></i>
+          </li>
+        <ul>
+      </nav>
+    </div>
+
+    <nav class="leftNav">
+      <ul class="leftNavUl">
+          <li class="title">MENU</li>
+          
+          <li  class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+              <i class="fa-solid fa-house"></i>
+              <p>Dashboards</p>
+            </div>
+              <span>03</span>
+          </div>
+          <ul class="subMenu">
+              <li>Default</li>
+              <li>Sass</li>
+              <li>Crypto</li>
+              <li>Blog</li>
+          </ul>
+          </li>
+          <li class="content">
+              <div  class="dropDown">
+                <div class="insideDropDown">
+                  <i class="fa-solid fa-table-cells"></i>
+                  <p>Layouts</p>
+                </div>
+                  <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <ul class="subMenu">
+                <li>Vertical</li>
+                <li>Horizontal</li>
+            </ul>
+          </li>
+
+          <li class="title">APPS</li>
+          
+          <li  class="content">
+              <div  class="dropDown">
+                <div class="insideDropDown">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <p>Calendar</p>
+                </div>
+              
+              </div>
+          </li>
+          <li class="content">
+              <div  class="dropDown">
+                <div class="insideDropDown">
+                  <i class="fa-solid fa-message"></i>
+                  <p>Chat</p>
+                </div>
+                  <span class="new">New</span>
+              </div>
+             
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-store"></i>
+                <p>Ecommerce</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Products</li>
+              <li>Order</li>
+              <li>Cart</li>
+              <li>Shops</li>
+          </ul>
+          </li>
+          <li class="content">
+          <div  class="dropDown">
+            <div class="insideDropDown">
+              <i class="fa-brands fa-bitcoin"></i>
+              <p>Crypto</p>
+            </div>
+              <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <ul class="subMenu">
+            <li>Wallet</li>
+            <li>Buy/Sell</li>
+            <li>Exchange</li>
+            <li>ICO Landing</li>
+        </ul>
+          </li>
+          <li class="content">
+        <div  class="dropDown">
+          <div class="insideDropDown">
+            <i class="fa-regular fa-envelope"></i>
+            <p>Email</p>
+          </div>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <ul class="subMenu">
+          <li>Inbox</li>
+          <li>Read email</li>
+          <li>Templates</li>
+      </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-file-invoice"></i>
+                <p>Invoices</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Invoice List</li>
+              <li>Invoice Details</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>Projects</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Project List</li>
+              <li>Project Grid</li>
+              <li>Project Overview</li>
+              <li>Create New</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-list-check"></i>
+                <p>Tasks</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Task List</li>
+              <li>Create Tasks</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-user-group"></i>
+                <p>Contacts</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>User List</li>
+              <li>User Grid</li>
+              <li>Profile</li>
+            </ul>
+          </li>
+
+          <li class="title">PAGES</li>
+
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-user-shield"></i>
+                <p>Authentication</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Login</li>
+              <li>Register</li>
+              <li>Recover Password</li>
+              <li>Email Verification</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <p>Utility</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Starter Page</li>
+              <li>Maintenance</li>
+              <li>Coming Soon</li>
+              <li>Timeline</li>
+            </ul>
+          </li>
+
+          <li class="title">COMPONENTS</li>
+
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-brands fa-uikit"></i>
+                <p>UI Elements</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Alerts</li>
+              <li>Buttons</li>
+              <li>Cards</li>
+              <li>Carousel</li>
+            </ul>
+          </li>
+          <li  class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-pen-ruler"></i>
+              <p>Forms</p>
+            </div>
+              <span>10</span>
+          </div>
+          <ul class="subMenu">
+              <li>Form Elements</li>
+              <li>Form Layouts</li>
+              <li>Form Editors</li>
+              <li>Form Mask</li>
+          </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-list"></i>
+                <p>Tables</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Basic Tables</li>
+              <li>Data Tables</li>
+              <li>Responsive Table</li>
+              <li>Editable Table</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-chart-simple"></i>
+                <p>Charts</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Apex Charts</li>
+              <li>E Charts</li>
+              <li>Flot Chart</li>
+              <li>Sparkline Chart</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-icons"></i>
+                <p>Icons</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Boxicons</li>
+              <li>Material Design</li>
+              <li>Font Awesome</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <p>Maps</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Google Maps</li>
+              <li>Vector Maps</li>
+              <li>Leaflet Maps</li>
+            </ul>
+          </li>
+          <li class="content">
+            <div  class="dropDown">
+              <div class="insideDropDown">
+                <i class="fa-solid fa-layer-group"></i>
+                <p>Multi Levels</p>
+              </div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="subMenu">
+              <li>Level 1.1</li>
+              <li>Level 1.2</li>
+            </ul>
+          </li>
+
+      </ul>
+    </nav>
+    <section class="mainContent">
+      <div class="heading">
+        <h4>DASHBOARD</h4>
+        <p>Dashboards / Dashboard</p>
+      </div>
+
+      <div class="mainCarts">
+        <div class="mainCartLeft">
+          <div class="topDiv">
+          <div class="topDivContent">
+            <h4>Welcome Back !</h4>
+            <p>Skote Dashboard</p>
+          </div>
+          <span>
+          <img src="./img/profile-img.png" alt="computer, girl">
+        </span>
+          </div>
+          <div class="middleDiv">
+          <div class="middleDiv1">
+              <img src="./img/person.jpg" alt="man, profilepic">
+              <h4>Henry <br> Price</h4>
+              <p>UI/UX <br> Designer</p>
+          </div>
+          <div class="middleDiv2">
+            <h4>125</h4>
+            <h4 class="project">Project</h4>
+            <a href="#" class="button">
+              <p>View Profile</p>
+              <i class="fa-solid fa-right-long"></i>
+            </a>
+          </div>
+          <div class="middleDiv3">
+            <h4>$1245</h4>
+            <h4 class="project">Revenue</h4>
+          </div>
+          </div>
+          <div class="bottomDiv">
+          <div class="bottomDiv1">
+            <h4>Monthly Earning</h4>
+            <p>This month</p>
+            <h2>$34,252</h2>
+            <p>12% From <br> previous <br> period</p>
+          </div>
+          <div class="bottomDiv2">
+            <img src="./img/Capture.png" alt="stat">
+          </div>
+          </div>
+          <a href="#" class="button noDiv">
+            <p>View More</p>
+            <i class="fa-solid fa-right-long"></i>
+          </a>
+          <p class="lastCaption">We craft digital, graphic and dimensional thinking.</p>
+        </div>
+        <div class="mainCartRight">
+          <div class="topCards">
+            <div class="topCards1 sameprops">
+              <div class="cardInfo">
+                <p class="cardInfoP">Orders</p>
+                <h3 class="cardInfoH3">1,235</h3>
+              </div>
+              <img src="./img/sheet.PNG.jpg" alt="tool">
+            </div>
+            <div class="topCards2 sameprops">
+              <div class="cardInfo">
+                <p class="cardInfoP">Revenue</p>
+                <h3 class="cardInfoH3">$35, 723</h3>
+              </div>
+              <img src="./img/sheet2.PNG.jpg" alt="tool">
+            </div>
+            <div class="topCards3 sameprops">
+              <div class="cardInfo">
+                <p class="cardInfoP">Avarage Price</p>
+                <h3 class="cardInfoH3">$16.2</h3>
+              </div>
+              <img src="./img/sheet3.PNG.jpg" alt="tool">
+            </div>
+          </div>
+          <div class="mainTable">
+            <div class="tableHeading">
+              <h4>Email Sent</h4>
+              <div class="tableHeadingRight">
+                <p>Week</p>
+                <p>Month</p>
+                <p class="year">Year</p>
+              </div>
+            </div>
+            <div class="diagram">
+              <ul class="diagramUl">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <div class="chart">
+                <div class="numbers">
+                  <p>100</p>
+                  <p>80</p>
+                  <p>60</p>
+                  <p>40</p>
+                  <p>20</p>
+                  <p>0</p>
+                </div>
+                <div class="chartStats">
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue1 commonProps"></div>
+                    <div class="month">
+                      <p>Jan</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue2 commonProps"></div>
+                    <div class="month">
+                      <p>Feb</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue3 commonProps"></div>
+                    <div class="month">
+                      <p>Mar</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue4 commonProps"></div>
+                    <div class="month">
+                      <p>Apr</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue5 commonProps"></div>
+                    <div class="month">
+                      <p>May</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue6 commonProps"></div>
+                    <div class="month">
+                      <p>Jun</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue7 commonProps"></div>
+                    <div class="month">
+                      <p>Jul</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue8 commonProps"></div>
+                    <div class="month">
+                      <p>Aug</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue9 commonProps"></div>
+                    <div class="month">
+                      <p>Sep</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue10 commonProps"></div>
+                    <div class="month">
+                      <p>Oct</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue11 commonProps"></div>
+                    <div class="month">
+                      <p>Nov</p>
+                    </div>
+                  </div>
+                  <div class="result">
+                    <div class="green commonProps"></div>
+                    <div class="yellow commonProps"></div>
+                    <div class="blue blue12 commonProps"></div>
+                    <div class="month">
+                      <p>Dec</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+            <div class="series">
+              <div class="series1">
+                <div class="cube cube1"></div>
+                <p class="seriesp">Series A</p>
+              </div>
+              <div class="series2">
+                <div class="cube cube2"></div>
+                <p class="seriesp">Series B</p>
+              </div>
+              <div class="series3">
+                <div class="cube cube3"></div>
+                <p class="seriesp">Series C</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="socialCards">
+        <div class="socialCard1">
+          <h4>Social Source</h4>
+          <div class="fbBox">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <h4 class="fbSales">Facebook - 125 sales</h4>
+          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
+          <a href="#"><p>Learn more</p></a>
+          <div class="socialMedia">
+            <div class="fb">
+              <i class="fa-brands fa-facebook"></i>
+              <h4>Facebook</h4>
+              <p>125 sales</p>
+            </div>
+            <div class="fb">
+              <i class="fa-brands fa-twitter"></i>
+              <h4>Twitter</h4>
+              <p>112 sales</p>
+            </div>
+            <div class="fb">
+              <i class="fa-brands fa-instagram"></i>
+              <h4>Instagram</h4>
+              <p>104 sales</p>
+            </div>
+          </div>
+        </div>
+        <div class="socialCard2">
+          <h4>Activity</h4>
+          <ul>
+            <li class="notes">
+              <i class="fa-regular fa-circle-right"></i>
+              <h5>22 Nov</h5>
+              <i class="fa-solid fa-right-long"></i>
+              <p>Responded to need “Volunteer Activities"</p>
+            </li>
+            <li class="notes">
+              <i class="fa-regular fa-circle-right"></i>
+              <h5>17 Nov</h5>
+              <i class="fa-solid fa-right-long"></i>
+              <p>Everyone realizes why a new common language would be desirable... <a href="#">Read more</a></p>
+            </li>
+            <li class="notes">
+              <i class="fa-solid fa-circle-right moving"></i>
+              <h5>15 Nov</h5>
+              <i class="fa-solid fa-right-long"></i>
+              <p>Joined the group “Boardsmanship Forum”</p>
+            </li>
+            <li class="notes">
+              <i class="fa-regular fa-circle-right"></i>
+              <h5>12 Nov</h5>
+              <i class="fa-solid fa-right-long"></i>
+              <p>Responded to need “In-Kind Opportunity”</p>
+            </li>
+          </ul>
+          <a class="button">View More <i class="fa-solid fa-right-long"></i></a>
+          <div class="line"></div>
+        </div>
+        <div class="socialCard3">
+          <h4>Top Cities Selling Product</h4>
+          
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h2>1,456</h2>
+            <p>San Francisco</p>
+          </div>
+          <div class="city">
+            <p>San Francisco</p>
+            <h4>1,456</h4>
+            <div class="size"></div>
+          </div>
+          <div class="city">
+            <p>Los Angeles</p>
+            <h4>1,123</h4>
+            <div class="size2"></div>
+          </div>
+          <div class="city">
+            <p>San Diego</p>
+            <h4>1,026</h4>
+            <div class="size3"></div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="bottomTable">
+        <h4>Latest Transaction</h4>
+        <table>
+          <thead>
+            <tr class="headInfos">
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>Order ID</th>
+            <th>Billing Name</th>
+            <th>Date</th>
+            <th>Total</th>
+            <th>Payment Status</th>
+            <th>Payment Method</th>
+            <th>View Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th class="idNum">#SK2540</th>
+            <td>Neal Matthews</td>
+            <td>07 Oct, 2019</td>
+            <td>$400</td>
+            <td><span id="paid">Paid</span></td>
+            <td><i class="fa-brands fa-cc-mastercard"></i>Mastercard</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>#SK2541</th>
+            <td>Jamal Burnett</td>
+            <td>07 Oct, 2019</td>
+            <td>$380</td>
+            <td><span id="chargeback">Chargeback</span></td>
+            <td><i class="fa-brands fa-cc-visa"></i>Visa</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>#SK2542</th>
+            <td>Juan Mitchell</td>
+            <td>06 Oct, 2019</td>
+            <td>$384</td>
+            <td><span id="paid">Paid</span></td>
+            <td><i class="fa-brands fa-paypal"></i>Paypal</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>#SK2543</th>
+            <td>Barry Jones</td>
+            <td>05 Oct, 2019</td>
+            <td>$412</td>
+            <td><span id="paid">Paid</span></td>
+            <td><i class="fa-brands fa-cc-mastercard"></i>Mastercard</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>#SK2541</th>
+            <td>Jamal Burnett</td>
+            <td>07 Oct, 2019</td>
+            <td>$380</td>
+            <td><span id="refund">Refund</span></td>
+            <td><i class="fa-brands fa-cc-visa"></i>Visa</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="checkbox" id="checkbox"></th>
+            <th>#SK2545</th>
+            <td>Jacob Hunter</td>
+            <td>04 Oct, 2019</td>
+            <td>$392</td>
+            <td><span id="paid">Paid</span></td>
+            <td><i class="fa-brands fa-paypal"></i>Paypal</td>
+            <td><span class="viewDetails">View Details</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      
+
+    </section>
+    <div class="footer">
+      <div class="copyright">
+        <i class="fa-regular fa-copyright"></i>
+        <p>Skote. 2020</p>
+      </div>
+      <p>Design & Develop by Themesbrand</p>
+    </div>
+  </body>
+</html>
